@@ -141,8 +141,10 @@ header a:hover {
     text-align: center;
 }
 
-#boxes .box img {
-    width: 50px;
+#boxes .box .box-img {
+    width: 50%;
+    height: 50px;
+    display: block;
 }
 
 footer {
