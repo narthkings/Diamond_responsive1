@@ -140,15 +140,13 @@ header a:hover {
     margin-left: 2rem;
 }
 
-
-/* @media only screen and (max-width: 760px) {
+@media only screen and (max-width: 760px) {
     #boxes .box-overall {
         display: flex;
         flex-direction: column;
         align-items: center;
-       
     }
-} */
+}
 
 #boxes .box-overall .single-box {
     display: flex;
@@ -163,6 +161,14 @@ header a:hover {
     #boxes .box-overall .single-box {
         width: 22%;
         height: 15rem;
+        margin-right: 65px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #boxes .box-overall .single-box {
+        width: 34%;
+        height: 20rem;
         margin-right: 65px;
     }
 }
