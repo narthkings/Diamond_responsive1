@@ -102,6 +102,15 @@ header a:hover {
     margin-bottom: 10px;
 }
 
+
+/* <<<<<======MEDIA QUERIES========>>>>>>>> */
+
+@media only screen and (max-width: 760px) {
+    #showcase h1 {
+        font-size: 40px;
+    }
+}
+
 #showcase p {
     font-size: 20px;
 }
@@ -138,6 +147,7 @@ header a:hover {
     display: flex;
     justify-content: space-evenly;
     margin-left: 2rem;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -157,6 +167,9 @@ header a:hover {
     margin-right: 70px;
 }
 
+
+/* <<<<<======MEDIA QUERIES========>>>>>>>> */
+
 @media only screen and (max-width: 1096px) {
     #boxes .box-overall .single-box {
         width: 22%;
@@ -167,11 +180,14 @@ header a:hover {
 
 @media only screen and (max-width: 760px) {
     #boxes .box-overall .single-box {
-        width: 34%;
-        height: 20rem;
-        margin-right: 65px;
+        width: 100%;
+        margin-right: 45px;
+        margin-bottom: 20px;
     }
 }
+
+
+/* <<<<<======END OF MEDIA QUERIES========>>>>>>>> */
 
 #boxes .box-overall .single-box :not(:last-child) {
     margin-right: none;
