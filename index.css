@@ -16,6 +16,12 @@ body {
     margin-top: 15px;
 }
 
+@media only screen and (max-width: 388px) {
+    .container .header-container {
+        font-size: 11.4px;
+    }
+}
+
 ul {
     margin: 0;
     padding: 0;
