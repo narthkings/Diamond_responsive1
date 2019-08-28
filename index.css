@@ -136,15 +136,35 @@ header a:hover {
 
 #boxes .box-overall {
     display: flex;
+    justify-content: space-evenly;
+    margin-left: 2rem;
 }
+
+
+/* @media only screen and (max-width: 760px) {
+    #boxes .box-overall {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+} */
 
 #boxes .box-overall .single-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 26.6%;
-    height: 20rem;
+    height: 13rem;
     margin-right: 70px;
+}
+
+@media only screen and (max-width: 1096px) {
+    #boxes .box-overall .single-box {
+        width: 22%;
+        height: 15rem;
+        margin-right: 65px;
+    }
 }
 
 #boxes .box-overall .single-box :not(:last-child) {
